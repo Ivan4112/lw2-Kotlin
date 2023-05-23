@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VacancyView">
+    <attr name="selectedColor" format="color"/>
+    <attr name="unSelectedColor" format="color"/>
+    <attr name="imageButtonStyle" format="reference"/>
+    <attr name="title" format="reference"/>
+    <attr name="salary" format="reference"/>
+    <attr name="company" format="reference"/>
+    <attr name="imgLog" format="reference"/>
+</declare-styleable>
+</resources>

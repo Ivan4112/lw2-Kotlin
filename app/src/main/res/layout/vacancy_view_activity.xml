@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.lw2.VacancyView
+            android:id="@+id/java"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp100"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:title="Junior Java"
+            app:salary="1000"
+            app:companyName="Epam"
+            app:image="@drawable/java"
+            app:selectedColor="@color/purple_200"
+            app:unSelectedColor="@color/purple_700"/>
+
+        <com.example.lw2.VacancyView
+            android:id="@+id/cSharp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp100"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:title="Junior C-Sharp"
+            app:salary="1000"
+            app:companyName="Sigma"
+            app:image="@drawable/sharp"
+            app:selectedColor="#8BC34A"
+            app:unSelectedColor="#F44336" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

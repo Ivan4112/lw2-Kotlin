@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="VacancyView">
+        <attr name="selectedColor" format="color"/>
+        <attr name="unSelectedColor" format="color"/>
+        <attr name="imageButtonStyle" format="reference"/>
+    </declare-styleable>
+</resources>
